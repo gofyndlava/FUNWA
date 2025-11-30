@@ -1,0 +1,48 @@
+.form-container {
+  margin: 20px;
+}
+
+.form-table {
+  width: 100%;
+}
+
+.form-table td {
+  padding: 10px;
+}
+
+.label-cell {
+  width: 220px;
+  padding-right: 10px;
+}
+
+.form-input,
+.form-select {
+  width: 307px;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.form-select {
+  width: 250px;
+}
+
+.submit-button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+

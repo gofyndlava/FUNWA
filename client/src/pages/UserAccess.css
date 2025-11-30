@@ -1,0 +1,17 @@
+.user-access-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.access-denied {
+  color: red;
+  background-color: yellow;
+  margin-top: 550px;
+  margin-left: 450px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+

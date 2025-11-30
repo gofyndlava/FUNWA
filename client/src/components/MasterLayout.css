@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.master-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #cfcaca;
+}
+
+.navbar {
+  background-color: #000;
+  border-bottom: 1px solid #333;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar > ul > li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  display: block;
+  padding: 14px 16px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.navbar a:hover {
+  background-color: #222;
+  border-color: #333;
+}
+
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #000;
+  border: 1px solid #333;
+  min-width: 200px;
+  z-index: 1000;
+}
+
+.navbar ul ul li {
+  width: 100%;
+}
+
+.navbar ul ul a {
+  padding: 10px 16px;
+  color: #fff;
+  white-space: nowrap;
+  border-bottom: 1px solid #333;
+}
+
+.navbar ul ul li:last-child a {
+  border-bottom: none;
+}
+
+.navbar ul ul a:hover {
+  background-color: #222;
+}
+
+.navbar li:hover > ul {
+  display: block;
+}
+
+.content {
+  padding: 20px;
+  padding-bottom: 80px;
+  flex: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  border-top: 1px solid #333;
+  width: 100%;
+}
+
+form {
+  flex: 1;
+  display: block;
+}
+
+main.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-menu-item {
+  display: block;
+  padding: 14px 16px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: default;
+}
+
+.nav-logout-button {
+  display: block;
+  padding: 14px 16px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid transparent;
+  background: transparent;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.nav-logout-button:hover {
+  background-color: #222;
+  border-color: #333;
+}
+
